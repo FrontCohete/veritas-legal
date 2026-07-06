@@ -1,6 +1,5 @@
-# Despliegue automático a GitHub Pages en cada push a main.
+# Despliegue automático a GitHub Pages en cada push a master.
 # Requiere: Settings → Pages → Source = "GitHub Actions".
-# Ver DESPLIEGUE_GITHUB_PAGES.md (Método B) para más detalle.
 name: Desplegar en GitHub Pages
 
 on:

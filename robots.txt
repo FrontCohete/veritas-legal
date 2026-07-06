@@ -1,0 +1,15 @@
+# Veritas Legal — sitio original
+User-agent: *
+Allow: /
+
+# Bloquear scrapers agresivos comunes (defensa parcial anti-clonación)
+User-agent: HTTrack
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+Sitemap: https://TU-USUARIO.github.io/veritas-legal/sitemap.xml
